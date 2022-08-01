@@ -1,0 +1,84 @@
+/* Колір основного тексту #212121 */
+/* Колір вторинного тексту #757575*/
+/* Колір фонових зображень #2F303A */
+/* Колір фону #ffffff */
+/* Колір вторинного фону  */
+:root{
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --second-text-color: #757575;
+}
+
+.logo{
+    color: #000000;
+}
+span{
+    color: var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+.site-nav .link {
+     color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+   color: var(--accent-color); 
+}
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.title{
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.section-title{
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+.feature-list .title{
+    color: var(--primary-text-color);
+}
+
+.button{
+    background-color: var(--accent-color);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: 0;
+}
+.text{
+    line-height: 1.7;
+    color: var(--second-text-color);
+}
+.command-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.command-text{
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--second-text-color);
+}
+
