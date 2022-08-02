@@ -3,11 +3,13 @@
 /* Колір фонових зображень #2F303A */
 /* Колір фону #ffffff */
 /* Колір вторинного фону  */
+
 :root{
     --primary-text-color: #212121;
     --accent-color: #2196F3;
     --second-text-color: #757575;
 }
+
 
 .logo{
     color: #000000;
@@ -30,8 +32,11 @@ span{
 }
 .hero{
     background-color: #2F303A;
+    text-align: center;
+    
 }
 .hero-title{
+    margin-bottom: 30px;
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
@@ -40,43 +45,73 @@ span{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+.button{
+    padding: 10px 32px;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    align-items: center;
+    letter-spacing: 0.06em;
+    border: 0;
+}
 .title{
     font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section:nth-child(4n) {
+background-color: #f5f4fa;
 }
 
 .section-title{
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
+    margin-bottom: 50px;
 }
+.feature,
+.work{
+    display: flex;  
+}
+.feature .lst + .lst{
+    margin-left: 45px;
+}
+
+
 .feature-list .title{
     color: var(--primary-text-color);
 }
 
-.button{
-    background-color: var(--accent-color);
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    border: 0;
-}
 .text{
     line-height: 1.7;
     color: var(--second-text-color);
+
+}
+.work .lst + .lst{
+    margin-left: 45px;
+}
+.command{
+    display: flex;
+}
+.command .lst + .lst{
+    margin-left: 45px;
 }
 .command-title{
+    margin-top: 30px;
+
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
 .command-text{
+    text-align: center;
     font-size: 16px;
     line-height: 1.2;
     color: var(--second-text-color);
