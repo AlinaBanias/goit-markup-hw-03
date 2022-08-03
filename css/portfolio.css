@@ -10,7 +10,14 @@
 }
 .visually{
     display: flex;
-    
+    margin-bottom: 50px;
+
+}
+.visually .btn + .btn{
+    margin-left: 8px;
+}
+.btn{
+    margin-left: 390px;
 }
 .flex-container{
     width: 1200px;

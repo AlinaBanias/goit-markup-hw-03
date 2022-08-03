@@ -48,7 +48,9 @@ img{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline:2px solid #000000;
+}
+.page-header{
+    border: 1px solid #ECECEC;
 }
 
 .logo {
@@ -75,6 +77,7 @@ img{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    
 }
 
 
