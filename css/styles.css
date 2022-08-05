@@ -9,7 +9,9 @@
     --accent-color: #2196F3;
     --second-text-color: #757575;
 }
-
+h1,h2,h3,h4,p{
+    margin-top: 0px;
+}
 
 .logo{
     color: #000000;
