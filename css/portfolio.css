@@ -58,22 +58,22 @@ h1,h2,h3,h4,p{
     margin-right: 0px;
 
 }
+.examples-title-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
  .images{
     text-decoration: none;
  }
 .work-title{
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
     color: var(--primary-text-color);
     font-size: 18px;
     line-height: 2;
     
 }
 .work-text{
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
     font-size: 16px;
     line-height: 1.88;
     color: var( --second-text-color);
