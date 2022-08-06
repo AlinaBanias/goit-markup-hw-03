@@ -32,13 +32,18 @@ span{
 .site-nav .link.current{
    color: var(--accent-color); 
 }
-.hero{
-    background-color: #2F303A;
-    text-align: center;
+.section .hero{
     padding-top: 200px;
     padding-bottom: 200px;
 }
+.hero{
+    background-color: #2F303A;
+    text-align: center;
+}
 .hero-title{
+    width: 693px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
     color: #ffffff;
     font-weight: 900;
@@ -78,6 +83,10 @@ background-color: #f5f4fa;
     text-align: center;
     margin-bottom: 50px;
 }
+.feature-text{
+    width: 270px;
+    margin-left: 30px;
+}
 .feature,
 .work{
     display: flex;  
@@ -96,6 +105,9 @@ background-color: #f5f4fa;
     color: var(--second-text-color);
 
 }
+.about{
+    padding-top: 0px; 
+}
 .work .lst + .lst{
     margin-left: 45px;
 }
@@ -106,6 +118,7 @@ background-color: #f5f4fa;
     margin-left: 45px;
 }
 .command-title{
+    padding-top: 0px;
     margin-top: 30px;
 
     text-align: center;
@@ -114,6 +127,7 @@ background-color: #f5f4fa;
     line-height: 1.2;
 }
 .command-text{
+    padding-bottom: 0px;
     text-align: center;
     font-size: 16px;
     line-height: 1.2;

@@ -13,14 +13,12 @@ h1,h2,h3,h4,p{
 }
 .visually{
     display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 
 }
 .visually .btn + .btn{
     margin-left: 8px;
-}
-.btn{
-    margin-left: 390px;
 }
 .flex-container{
     width: 1200px;
@@ -54,6 +52,7 @@ h1,h2,h3,h4,p{
 .examples{
     border: 1px solid #EEEEEE;
     width: calc((100% - 60px) / 3);
+    
 }
 .examples:nth-child(3n) {
     margin-right: 0px;
@@ -63,12 +62,18 @@ h1,h2,h3,h4,p{
     text-decoration: none;
  }
 .work-title{
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     color: var(--primary-text-color);
     font-size: 18px;
     line-height: 2;
-
+    
 }
 .work-text{
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-size: 16px;
     line-height: 1.88;
     color: var( --second-text-color);

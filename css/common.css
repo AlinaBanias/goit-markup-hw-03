@@ -135,9 +135,10 @@ span {
 .contacts .link:focus{
     color: var(--accent-color);
 }
-.address{
+.footer{
     background-color: #2F303A;
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .item .link {
     font-size: 14px;
@@ -146,10 +147,6 @@ span {
     text-decoration: none;
     font-style: normal;
     
-}
-.itm-nav{
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 .logo-second{
     display: block;
@@ -161,9 +158,10 @@ span {
     line-height: 31px;
     text-decoration: none;
 }
-
-.item .link-text {
+.address{
     margin-bottom: 9px;
+}
+.item .link-text {
     font-size: 14px;
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
