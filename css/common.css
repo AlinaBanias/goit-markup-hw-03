@@ -135,6 +135,13 @@ span {
 .contacts .link:focus{
     color: var(--accent-color);
 }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section:nth-child(4n) {
+background-color: #f5f4fa;
+}
 .footer{
     background-color: #2F303A;
     padding-top: 60px;
@@ -160,6 +167,9 @@ span {
 }
 .address{
     margin-bottom: 9px;
+}
+.address:last-child{
+    margin-bottom: 0px;
 }
 .item .link-text {
     font-size: 14px;

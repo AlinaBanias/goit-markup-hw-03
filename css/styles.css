@@ -32,13 +32,12 @@ span{
 .site-nav .link.current{
    color: var(--accent-color); 
 }
-.section .hero{
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
+
 .hero{
     background-color: #2F303A;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-title{
     width: 693px;
@@ -69,13 +68,6 @@ span{
     line-height: 1.1;
     text-transform: uppercase;
 }
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.section:nth-child(4n) {
-background-color: #f5f4fa;
-}
 
 .section-title{
     font-size: 36px;
@@ -83,15 +75,14 @@ background-color: #f5f4fa;
     text-align: center;
     margin-bottom: 50px;
 }
-.feature-text{
-    width: 270px;
-    margin-left: 30px;
-}
 .feature,
 .work{
     display: flex;  
 }
-.feature .lst + .lst{
+.feature-list .feature-text{
+    width: 270px;
+}
+ .lst + .lst{
     margin-left: 45px;
 }
 
@@ -117,9 +108,14 @@ background-color: #f5f4fa;
 .command .lst + .lst{
     margin-left: 45px;
 }
+.command-title-command-text{
+   padding-top: 30px;
+   padding-bottom: 30px; 
+
+}
 .command-title{
     padding-top: 0px;
-    margin-top: 30px;
+    margin-bottom: 10px;
 
     text-align: center;
     font-weight: 500;
