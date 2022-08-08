@@ -54,7 +54,7 @@ p {
   gap: 30px;
 }
 .examples {
-  border: 1px solid #eeeeee;
+ 
   width: calc((100% - 60px) / 3);
 }
 .examples:nth-child(3n) {
@@ -65,6 +65,7 @@ p {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border: 1px solid #eeeeee;
 }
 .images {
   text-decoration: none;
